@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		759FC6BE44DDE0C006BC5BEC /* libPods-TTCoding_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A219BCFF41F3ACA57B7C4976 /* libPods-TTCoding_Category.a */; };
 		ED39EF741E8A64B100CDF0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EF731E8A64B100CDF0BF /* main.m */; };
 		ED39EF771E8A64B100CDF0BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EF761E8A64B100CDF0BF /* AppDelegate.m */; };
 		ED39EF7A1E8A64B100CDF0BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EF791E8A64B100CDF0BF /* FirstViewController.m */; };
@@ -14,9 +15,13 @@
 		ED39EF801E8A64B100CDF0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EF7E1E8A64B100CDF0BF /* Main.storyboard */; };
 		ED39EF821E8A64B100CDF0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED39EF811E8A64B100CDF0BF /* Assets.xcassets */; };
 		ED39EF851E8A64B100CDF0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EF831E8A64B100CDF0BF /* LaunchScreen.storyboard */; };
+		ED7A20571E8A895500576F89 /* CTMediator+TTCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7A20561E8A895500576F89 /* CTMediator+TTCoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10E9B14A44EB35415021B259 /* Pods-TTCoding_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCoding_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTCoding_Category/Pods-TTCoding_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		A219BCFF41F3ACA57B7C4976 /* libPods-TTCoding_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTCoding_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2749E16ABAB1BD11F3BBF5D /* Pods-TTCoding_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCoding_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTCoding_Category/Pods-TTCoding_Category.release.xcconfig"; sourceTree = "<group>"; };
 		ED39EF6F1E8A64B100CDF0BF /* TTCoding_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCoding_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED39EF731E8A64B100CDF0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED39EF751E8A64B100CDF0BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +34,8 @@
 		ED39EF811E8A64B100CDF0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED39EF841E8A64B100CDF0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED39EF861E8A64B100CDF0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7A20551E8A895500576F89 /* CTMediator+TTCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TTCoding.h"; sourceTree = "<group>"; };
+		ED7A20561E8A895500576F89 /* CTMediator+TTCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TTCoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759FC6BE44DDE0C006BC5BEC /* libPods-TTCoding_Category.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8E46D300BBC9FB92955912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A219BCFF41F3ACA57B7C4976 /* libPods-TTCoding_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD23AD5810E0BE2ED2AA28CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10E9B14A44EB35415021B259 /* Pods-TTCoding_Category.debug.xcconfig */,
+				D2749E16ABAB1BD11F3BBF5D /* Pods-TTCoding_Category.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED39EF661E8A64B100CDF0BF = {
 			isa = PBXGroup;
 			children = (
 				ED39EF711E8A64B100CDF0BF /* TTCoding_Category */,
 				ED39EF701E8A64B100CDF0BF /* Products */,
+				AD23AD5810E0BE2ED2AA28CB /* Pods */,
+				0B8E46D300BBC9FB92955912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +88,7 @@
 		ED39EF711E8A64B100CDF0BF /* TTCoding_Category */ = {
 			isa = PBXGroup;
 			children = (
+				ED7A20541E8A892900576F89 /* TTCoding_Category */,
 				ED39EF751E8A64B100CDF0BF /* AppDelegate.h */,
 				ED39EF761E8A64B100CDF0BF /* AppDelegate.m */,
 				ED39EF781E8A64B100CDF0BF /* FirstViewController.h */,
@@ -84,6 +112,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED7A20541E8A892900576F89 /* TTCoding_Category */ = {
+			isa = PBXGroup;
+			children = (
+				ED7A20551E8A895500576F89 /* CTMediator+TTCoding.h */,
+				ED7A20561E8A895500576F89 /* CTMediator+TTCoding.m */,
+			);
+			path = TTCoding_Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED39EF891E8A64B100CDF0BF /* Build configuration list for PBXNativeTarget "TTCoding_Category" */;
 			buildPhases = (
+				62041B0C85AC277B174CC81C /* [CP] Check Pods Manifest.lock */,
 				ED39EF6B1E8A64B100CDF0BF /* Sources */,
 				ED39EF6C1E8A64B100CDF0BF /* Frameworks */,
 				ED39EF6D1E8A64B100CDF0BF /* Resources */,
+				E8F001A5234D433F87E660DC /* [CP] Embed Pods Frameworks */,
+				359E5AF92C69510F685455D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +191,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		359E5AF92C69510F685455D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCoding_Category/Pods-TTCoding_Category-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62041B0C85AC277B174CC81C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F001A5234D433F87E660DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCoding_Category/Pods-TTCoding_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED39EF6B1E8A64B100CDF0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -158,6 +246,7 @@
 			files = (
 				ED39EF7D1E8A64B100CDF0BF /* SecondViewController.m in Sources */,
 				ED39EF771E8A64B100CDF0BF /* AppDelegate.m in Sources */,
+				ED7A20571E8A895500576F89 /* CTMediator+TTCoding.m in Sources */,
 				ED39EF7A1E8A64B100CDF0BF /* FirstViewController.m in Sources */,
 				ED39EF741E8A64B100CDF0BF /* main.m in Sources */,
 			);
@@ -277,6 +366,7 @@
 		};
 		ED39EF8A1E8A64B100CDF0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E9B14A44EB35415021B259 /* Pods-TTCoding_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWR8MWYL3V;
@@ -289,6 +379,7 @@
 		};
 		ED39EF8B1E8A64B100CDF0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2749E16ABAB1BD11F3BBF5D /* Pods-TTCoding_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWR8MWYL3V;
@@ -318,6 +409,7 @@
 				ED39EF8B1E8A64B100CDF0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
